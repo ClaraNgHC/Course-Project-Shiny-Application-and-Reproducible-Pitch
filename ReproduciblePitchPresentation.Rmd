@@ -1,0 +1,61 @@
+---
+title: 'Course Project: Shiny Application and Reproducible Pitch'
+author: "Claranghc"
+date: "April 23, 2017"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+##Introduction
+
+This course Project have 2 parts.
+
+- Shiny app 
+- App presentation
+
+
+The app developed for the first part of the assignment demo is avalilable at: https://b33lie.shinyapps.io/shiny_app_mtcars/
+
+Source code for ui.R and server.R files are available on the GitHub repo: https://github.com/b33lie/shiny_app_mtcars/
+
+## Simple Currency exchange
+
+Taking USD as the main currency in this app. This app is using the USD rate as at 22/4/2017
+
+Listed are 4 countries that can select from to check on the exchange rate.
+
+- Malaysia
+- Singapore
+- Thailand
+- Australia
+
+
+##calculation part
+
+###Formula used
+
+Amount of USD * Rate for the selected country
+
+### Example
+
+Country = Malaysia (MYR)
+
+USD entered = 10
+MYR rate = 4.40
+
+Result  = 10 * 4.40
+        = 44 MYR
+
+USD 10 = MYR 44
+
+## App page layout
+
+![](/Users/Violet/Documents/OnlineCourse/DataSc/Module9/CourseAssignment/Assignment3/Image_page.jpg)
+
+*** 
+The end of the slide
+
+### Thank you
+
