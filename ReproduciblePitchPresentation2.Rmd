@@ -1,9 +1,8 @@
 ---
-title: 'Course Project: Shiny Application and Reproducible Pitch'
+title: "Course Project: Shiny Application and Reproducible Pitch"
 author: "Claranghc"
 date: "May 10, 2017"
 output: ioslides_presentation
-runtime: shiny
 ---
 
 ```{r setup, include=FALSE}
